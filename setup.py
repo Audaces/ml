@@ -13,6 +13,7 @@ setup(
             'po2ml = po2ml.__main__:main',
             'mlcppgen = mlcppgen.__main__:main',
             'mlpp = mlpp.__main__:main',
+            'validate_tra = validate_tra.__main__:main',
         ],
     },
     install_requires=['mock_utils<=0.4'],
